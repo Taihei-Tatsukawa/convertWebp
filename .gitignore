@@ -2,4 +2,4 @@
 *.jpg
 *.jpeg
 
-./webp/*.webp
+/webp/*
