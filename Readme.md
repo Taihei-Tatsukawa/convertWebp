@@ -17,12 +17,12 @@
 - webp に変換 通常
 
   ```zsh
-  convert2webp.sh
+  sh convert2webp.sh
   ```
 
 - webp に変換 ロスレス
   ```zsh
-  convert2webpLossless.sh
+  sh convert2webpLossless.sh
   ```
 
 ## 補足
