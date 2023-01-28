@@ -17,15 +17,17 @@
 - webp に変換 通常
 
   ```zsh
-  sh convert2webp.sh
+  sh ./sh/convert2webp.sh
   ```
 
 - webp に変換 ロスレス
   ```zsh
-  sh convert2webpLossless.sh
+  sh ./sh/convert2webpLossless.sh
   ```
 
 ## 補足
 
 - png を webp 化するときはロスレスを使用推奨
   - 圧縮率優先なら通常で
+- 画像の削除処理はしていない
+  - 同名ファイルがあったときは上書きになる
